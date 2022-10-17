@@ -89,6 +89,7 @@ header{
     
 }
 
+
 @media (max-width: 850px){
     .mobileButton{
         display: block;
@@ -96,6 +97,7 @@ header{
     .navList{
        display: none;
     }
+   
 }
 
 a:hover{
@@ -106,5 +108,11 @@ a:hover{
     transition: 0.8s;
 }
 
+.button:hover{
+    background-color: #FFCE4E;
+    border: 1px solid #ffffff;
+    color: black;
+    transition: 1.5s;
+}
 
 /* >>>>>>>>>>>>> NAV <<<<<<<<<<<<*/ 
