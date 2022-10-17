@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C121F;
+    font-family: 'Work Sans', sans-serif;
+    
+    
+ 
+}
+
+header{
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.mobileButton{ 
+    width: fit-content;
+    display: none;
+    
+    
+}
+.mobileButton .line1 {
+    margin-top: 5px;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px; 
+}
+.mobileButton .line2 {
+    margin-top: 5px;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px; 
+}
+.mobileButton .line3 {
+    margin-top: 5px;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px; 
+}
+
+
+.navList{
+    display: flex;
+    align-items: center;
+    gap: 135px;
+    justify-content: space-between;
+
+}
+
+.navList ul{
+    display: flex;
+    gap: 65px;
+    list-style: none;
+    height: fit-content;
+    
+}
+.navList a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navList img{
+    width: 60px;
+}
+
+.navList .button{
+    padding: 15px;
+    border: 1px solid #FFCE4E;
+    background: rgba(233, 215, 167, 0.1);
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFCE4E;
+    
+}
+
+@media (max-width: 850px){
+    .mobileButton{
+        display: block;
+    }
+    .navList{
+       display: none;
+    }
+}
+
+a:hover{
+    color: #FFCE4E;
+    border-bottom: 1px solid #FFCE4E;
+    font-size: 18px;
+    padding: 0 0 10px 0;
+    transition: 0.8s;
+}
+
+
+/* >>>>>>>>>>>>> NAV <<<<<<<<<<<<*/ 
